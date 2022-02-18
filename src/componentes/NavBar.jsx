@@ -1,48 +1,117 @@
-import React from 'react';
+import * as React from 'react';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import Menu from '@mui/material/Menu';
+import MenuIcon from '@mui/icons-material/Menu';
+import Container from '@mui/material/Container';
+//import Avatar from '@mui/material/Avatar';
+import Button from '@mui/material/Button';
+import Tooltip from '@mui/material/Tooltip';
+import MenuItem from '@mui/material/MenuItem';
+import Logo from '../Imagenes/Logo.png';
 
-const NavBar = () => {
-    return(
-        <div>
-            NavBar
-        </div>
-    )
-}
-
-export default NavBar;
+const pages = ['Como Llegar', 'Galería', 'Equipamiento', 'Contacto'];
 
 
-// LO QUE HABÍA EN APP
+const Navbar = () => {
+  const [anchorElNav, setAnchorElNav] = React.useState(null);
+  //const [anchorElUser, setAnchorElUser] = React.useState(null);
 
-/* import React from 'react';
-import Button from '@mui/material/Button'
-import { makeStyles } from '@mui/styles';
-import { ThemeProvider} from '@mui/material/styles';
-import theme from './themeConfig';
-import NavBar from './componentes/NavBar.jsx';
+  const handleOpenNavMenu = (event) => {
+    setAnchorElNav(event.currentTarget);
+  };
+  /* const handleOpenUserMenu = (event) => {
+    setAnchorElUser(event.currentTarget);
+  };  */
 
-const useStyles = makeStyles( (theme) => {
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
+  };
 
-})
-
-function App() {
-
-  const l = useStyles();
+  /* const handleCloseUserMenu = () => {
+    setAnchorElUser(null);
+  }; */
 
   return (
-    <ThemeProvider theme={theme}>
-      <NavBar>
-        Hola, soy NavBar
-      </NavBar>
+    <AppBar position="static">
+      <Container maxWidth="xl">
+        <Toolbar disableGutters>
+          <Typography
+            variant="h6"
+            noWrap
+            component="div"
+            sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
+          >
+            LOGO
+          </Typography>
 
-      
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+            <IconButton
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              onClick={handleOpenNavMenu}
+              color="inherit"
+            >
+              <MenuIcon />
+            </IconButton>
+            <Menu
+              id="menu-appbar"
+              anchorEl={anchorElNav}
+              anchorOrigin={{
+                vertical: 'bottom',
+                horizontal: 'left',
+              }}
+              keepMounted
+              transformOrigin={{
+                vertical: 'top',
+                horizontal: 'left',
+              }}
+              open={Boolean(anchorElNav)}
+              onClose={handleCloseNavMenu}
+              sx={{
+                display: { xs: 'block', md: 'none' },
+              }}
+            >
+              {pages.map((page) => (
+                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center">{page}</Typography>
+                </MenuItem>
+              ))}
+            </Menu>
+          </Box>
+          <Typography
+            variant="h6"
+            noWrap
+            component="div"
+            sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
+          >
+            LOGO
+          </Typography>
 
-      <Button
-      href='https://www.google.com/maps/place/Caba%C3%B1as+Do%C3%B1a+Juana/@-31.7944687,-64.9859026,17z/data=!3m1!4b1!4m5!3m4!1s0x942d2f939b9fef69:0x86d8ee840945535e!8m2!3d-31.7944687!4d-64.9837139'>
-        Cómo Llegar
-      </Button>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+            {pages.map((page) => (
+              <Button
+                key={page}
+                onClick={handleCloseNavMenu}
+                sx={{ my: 2, color: 'white', display: 'block' }}
+              >
+                {page}
+              </Button>
+            ))}
+          </Box>
 
-      </ThemeProvider>
+          <Box sx={{ flexGrow: 0 }}>
+            
+           
+          </Box>
+        </Toolbar>
+      </Container>
+    </AppBar>
   );
-}
-
-export default App; */
+};
+export default Navbar;

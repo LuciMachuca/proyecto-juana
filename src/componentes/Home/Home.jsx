@@ -1,4 +1,6 @@
 import React from 'react';
+//import Navbar from './HomeConfig';
+import Navbar from '../NavBar';
 
 export default function Home() {
   
@@ -7,7 +9,7 @@ export default function Home() {
 
         <div>
 
-            <h3>Home</h3>
+            <Navbar/>
 
         </div>
     )
