@@ -12,6 +12,9 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import Logo from '../Imagenes/Logo.png';
+import theme from '../themeConfig'
+import { color } from '@mui/system';
+
 
 const pages = ['Como Llegar', 'Galería', 'Equipamiento', 'Contacto'];
 
@@ -36,9 +39,10 @@ const Navbar = () => {
   }; */
 
   return (
-    <AppBar position="static">
-      <Container maxWidth="xl">
-        <Toolbar disableGutters>
+    <nav>
+    <AppBar position="static" style={{ backgroundColor: '#81E9E6', color: 'black' }}>
+      <Container maxWidth="xl" >
+        <Toolbar disableGutters >
           <Typography
             variant="h6"
             noWrap
@@ -48,7 +52,7 @@ const Navbar = () => {
             LOGO
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }} >
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -93,9 +97,9 @@ const Navbar = () => {
             LOGO
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }} style={{justifyContent: 'end' }}>
             {pages.map((page) => (
-              <Button
+              <Button style={{color: 'black' }}
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
@@ -112,6 +116,7 @@ const Navbar = () => {
         </Toolbar>
       </Container>
     </AppBar>
+    </nav>
   );
 };
 export default Navbar;

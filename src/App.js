@@ -8,11 +8,12 @@ import Equipamiento from './componentes/Equipamiento/Equipamiento.jsx';
 
 
 
+
 function App() {
   return (
     <BrowserRouter>
 
-    <div className="App">
+    <div className="App" >
 
       <Switch>
 

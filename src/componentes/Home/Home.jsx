@@ -22,10 +22,7 @@ export default function Home() {
                 
                 <h1>aqui va algo</h1>
                 
-                <h1>aqui va algo</h1>
-
-                <h1>aqui va algo</h1>
-                
+               
                 
             <Footer />
 

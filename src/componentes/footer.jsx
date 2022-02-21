@@ -28,7 +28,7 @@ function Footer() {
                   <Grid container spacing={5} >
                             
                       <Grid item xs={12} sm={4} >
-                          <Box paddingTop={'21px'} >
+                          <Box paddingTop={'5px'} >
                               <Typography variant='h6' fontFamily={theme.typography.fontFamily}>
                                 Nono, Córdoba, Argentina
                               </Typography>
@@ -44,7 +44,7 @@ function Footer() {
                           
                             sx={{
                             width: '50%',    
-                            height: '80%',
+                            height: '50%',
                             paddingTop: '30px',
                             /* maxHeight: { xs: '80%', sm: '40%' },
                             /* maxWidth: { xs: 190, sm: 90 }, */ 
