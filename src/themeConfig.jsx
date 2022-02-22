@@ -6,6 +6,7 @@ const theme = createTheme({
         primary: { main: '#81E9E6' },
         secondary: { main: '#871A1A' },
         neutral: { main: '#F3F0F0', contrastText: '#fff' },
+        
     },
     typography: {
         fontFamily: 'Spartan',
