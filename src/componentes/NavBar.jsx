@@ -108,7 +108,7 @@ const Navbar = () => {
                 </MenuItem>
               ))} */}
 
-                <Button component={Link} to='/contacto'>
+                <Button style={{color: 'black' }} component={Link} to='/contacto'>
                   Contacto
                 </Button>
 
