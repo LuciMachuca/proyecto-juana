@@ -1,6 +1,5 @@
 import prq1 from '../../Imagenes/Parque/3.1.gif';
 import prq2 from '../../Imagenes/Parque/3.2.gif';
-import prq3 from '../../Imagenes/Parque/3.3.gif';
 import prq4 from '../../Imagenes/Parque/3.4.gif';
 import prq5 from '../../Imagenes/Parque/3.5.gif';
 import prq6 from '../../Imagenes/Parque/3.6.gif';
@@ -25,27 +24,26 @@ import prq21 from '../../Imagenes/Parque/3.21.gif';
 
 
 var parque = [
-    { img: prq1, title: "prueba" },
-    { img: prq2, title: "una-foto" },
-    { img: prq3, title: "otra-foto" },
-    { img: prq4, title: "una-foto-mas" },
-    { img: prq5, title: "una-foto-4" },
-    { img: prq6, title: "una-foto-4" },
-    { img: prq7, title: "una-foto-4" },
-    { img: prq8, title: "una-foto-4" },
-    { img: prq9, title: "una-foto-4" },
-    { img: prq10, title: "una-foto-4" },
-    { img: prq11, title: "una-foto-4" },
-    { img: prq12, title: "una-foto-4" },
-    { img: prq13, title: "una-foto-4" },
-    { img: prq14, title: "una-foto-4" },
-    { img: prq15, title: "una-foto-4" },
-    { img: prq16, title: "una-foto-4" },
-    { img: prq17, title: "una-foto-4" },
-    { img: prq18, title: "una-foto-4" },
-    { img: prq19, title: "una-foto-4" },
-    { img: prq20, title: "una-foto-4" },
-    { img: prq21, title: "una-foto-4" }
+    { img: prq1, title: "panorámica cielo" },
+    { img: prq2, title: "entrada" },
+    { img: prq4, title: "vista inferior" },
+    { img: prq5, title: "pileta cerca montaña" },
+    { img: prq6, title: "pileta cerca montaña2" },
+    { img: prq7, title: "pileta amplia" },
+    { img: prq8, title: "pileta amplia2" },
+    { img: prq9, title: "cab1 y 2 cielo" },
+    { img: prq10, title: "cab3 cielo" },
+    { img: prq11, title: "cab1 cielo" },
+    { img: prq12, title: "cab3 arcoIris" },
+    { img: prq13, title: "cab1 y 2 vertical" },
+    { img: prq14, title: "cab 1 y 2 horizontal" },
+    { img: prq15, title: "cab 3 vertical" },
+    { img: prq16, title: "cab 3 montaña" },
+    { img: prq17, title: "pileta superior" },
+    { img: prq18, title: "pileta montaña" },
+    { img: prq19, title: "pileta rectángulo" },
+    { img: prq20, title: "pileta completa" },
+    { img: prq21, title: "entrada nocturna" }
 ];
 
 export default parque;
