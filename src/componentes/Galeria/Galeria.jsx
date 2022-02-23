@@ -2,7 +2,8 @@ import React from 'react';
 import Footer from '../Footer';
 //import Navbar from './HomeConfig';
 import Navbar from '../NavBar';
-import Imagenes from './GaleriaConfig.jsx';
+import Parque from './GaleriaConfig.jsx';
+
 
 export default function Galeria() {
 
@@ -12,8 +13,8 @@ export default function Galeria() {
         <div>
             <Navbar />
 
-            <Imagenes />
-
+            <Parque />
+            
 
             <Footer />
 
