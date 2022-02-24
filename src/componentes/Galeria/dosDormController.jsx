@@ -9,7 +9,7 @@ const Dos_Dormitorios = () => {
 
     return (
 
-        <ImageList sx={{ width: 700, height: 500 }} variant="woven" cols={3} gap={12}>
+        <ImageList xl={{ width: 700, height: 500 }} variant="woven" cols={3} gap={12}>
             {dos_dorm.map((item) => (
                 <ImageListItem key={item.img}>
                     <img

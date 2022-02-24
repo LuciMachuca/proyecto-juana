@@ -10,7 +10,7 @@ const Parque = () => {
 
     return (
 
-        <ImageList sx={{ width: 700, height: 500 }} variant="woven" cols={3} gap={12}>
+        <ImageList xl={{ width: 700, height: 500 }} variant="woven" cols={3} gap={12}>
             {parque.map((item) => (
                 <ImageListItem key={item.img}>
                     <img
