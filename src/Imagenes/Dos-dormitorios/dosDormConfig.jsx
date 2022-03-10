@@ -25,28 +25,36 @@ import gde21 from '../../Imagenes/Dos-dormitorios/2.21.gif';
 
 
 var dos_dorm = [
+    { img: gde21, title: "cab 1 y 2 cielo" },
+    { img: gde19, title: "quincho cochera" },
+    { img: gde20, title: "cochera" },
+
+    { img: gde13, title: "cocina comedor" },
+    { img: gde10, title: "coc com mesa" },
+    { img: gde11, title: "coc com mesa+" },
+    { img: gde9, title: "cocina mesada" },
+    { img: gde14, title: "comedor marinera" },
+    { img: gde12, title: "marinera" },
+
     { img: gde1, title: "dor-pral ventana" },
     { img: gde2, title: "dor-pral ventana2" },
     { img: gde3, title: "dor-smp ventana" },
     { img: gde4, title: "dor-smp placard" },
     { img: gde5, title: "dor-pral cama" },
+
     { img: gde6, title: "antebaño" },
-    { img: gde7, title: "baño sanitarios" },
-    { img: gde8, title: "baño ducha" },
-    { img: gde9, title: "cocina mesada" },
-    { img: gde10, title: "coc com mesa" },
-    { img: gde11, title: "coc com mesa+" },
-    { img: gde12, title: "marinera" },
-    { img: gde13, title: "cocina comedor" },
-    { img: gde14, title: "comedor marinera" },
     { img: gde15, title: "antebaño lavabo" },
     { img: gde16, title: "baño lavabo" },
     { img: gde17, title: "baño lavabo+" },
     { img: gde18, title: "antebaño lavabo superior" },
-    { img: gde19, title: "quincho cochera" },
-    { img: gde20, title: "cochera" },
-    { img: gde21, title: "cab 1 y 2 cielo" }
+    
+    { img: gde7, title: "baño sanitarios" },
+    { img: gde8, title: "baño ducha" },
+    
+    
 ];
+
+
 
 export default dos_dorm;
 
