@@ -49,6 +49,21 @@ export default function BasicTabs() {
     setValue(newValue);
   };
 
+  // para la responsividad  --------------------------------
+  const [anchorElNav, setAnchorElNav] = React.useState(null);
+
+ const handleOpenNavMenu = (event) => {
+    setAnchorElNav(event.currentTarget);
+  };
+ 
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
+  };
+
+  //------------------------------------------------------
+
+  
+
   return (
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
@@ -69,6 +84,8 @@ export default function BasicTabs() {
       </TabPanel>
     </Box>
   );
-}
+} 
+
+
 
 

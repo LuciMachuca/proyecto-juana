@@ -21,15 +21,19 @@ import chc14 from '../../Imagenes/Un-dormitorio/1.14.gif';
 var un_dorm = [
     { img: chc2, title: "exterior montaña" },
     { img: chc1, title: "exterior cielo" },
-    { img: chc3, title: "dormitorio" },
-    { img: chc4, title: "dorm placard" },
-    { img: chc5, title: "baño sanitarios" },
-    { img: chc6, title: "baño ducha" },
-    { img: chc7, title: "baño lavabo" },
+
     { img: chc8, title: "cocina comedor" },
     { img: chc9, title: "coc com mesada" },
     { img: chc10, title: "coc com marinera" },
     { img: chc11, title: "marinera" },
+
+    { img: chc3, title: "dormitorio" },
+    { img: chc4, title: "dorm placard" },
+    
+    { img: chc5, title: "baño sanitarios" },
+    { img: chc6, title: "baño ducha" },
+    { img: chc7, title: "baño lavabo" },
+    
     { img: chc12, title: "quincho asador" },
     { img: chc13, title: "quincho" },
     { img: chc14, title: "cochera" }
