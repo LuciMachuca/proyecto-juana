@@ -1,5 +1,6 @@
 import React from 'react';
-import Footer from '../Footer';
+import Carousel from '../Carousel/Carousel.jsx';
+import Footer from '../footer';
 //import Navbar from './HomeConfig';
 import Navbar from '../NavBar';
 
@@ -11,6 +12,8 @@ export default function Home() {
         <div>
 
             <Navbar/>
+
+            <Carousel />
 
             <h1>aqui va algo</h1>
 
