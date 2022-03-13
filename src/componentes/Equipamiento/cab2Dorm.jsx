@@ -6,11 +6,10 @@ export default function Cab2Dorm() {
         <div>
 
             <div>
-                <h1>EQUIPAMIENTO COMPLETO</h1>
-                <h2>Cabaña de 2 Dormitorios</h2>
+                
                 <h4>WIFI GRATUITO Y LIBRE</h4>
-                <h4>Todas las ventanas de la cabaña son de doble vidrio,<br />
-                    tienen telas mosquiteras y cortinas black out.</h4>
+                <h4>Todas las ventanas de la cabaña tienen doble vidrio,<br />
+                    tela mosquitera y cortinas black out.</h4>
             </div>
 
             <div>
@@ -24,15 +23,15 @@ export default function Cab2Dorm() {
                 <h3>DORMITORIOS</h3>
                 <p><span>PRINCIPAL:</span>Somier doble, placard con perchas, mesas de luz con veladores.<br />
                     Ventilador de techo, aire acondicionado frío calor y calefactor de tiro balanceado.<br />
-                    <span>SECUNDARIO:</span>2 sommier de 1 plaza, placard con perchas, mesas de luz con veladores.<br />
+                    <span>SECUNDARIO: </span>2 somiers de 1 plaza, placard con perchas, mesas de luz con veladores.<br />
                     Ventilador de techo, calefactor de tiro balanceado.<br />
-                    <strong>ROPA DE CAMA:</strong>Sábanas, Almohadas, acolchados y mantas de polar.<br />
-                    <strong>NO INCLUIMOS TOALLAS</strong>((Las ofrecemos de forma opcional, con costo adicional)).<br />
+                    <strong>ROPA DE CAMA: </strong>Sábanas, Almohadas, acolchados y mantas de polar.<br />
+                    NO INCLUIMOS TOALLAS ((Las ofrecemos de forma opcional, con costo adicional)).<br />
                 </p>
             </div>
 
             <div>
-                <h3>BAÑO</h3>
+                <h3>SANITARIO </h3>
                 <p>Ducha con agua caliente 24 hs.<br />
                     Alfombra antideslizante.<br />
                     OTROS: 1 toalla de mano, 1 rollo de papel higiénico y 1 jabón de tocador.<br />
@@ -41,18 +40,18 @@ export default function Cab2Dorm() {
 
             <div>
                 <h3>COCINA COMEDOR</h3>
-                <p>Cocina con horno, heladera con freazer, pava eléctrica, horno microondas.<br />
+                <p>Cocina con horno, heladera con freezer, pava eléctrica, horno microondas.<br />
                     Smart TV led 32” con Directv.<br />
                     Mesa de madera con 6 sillas. Aire acondicionado frío calor.<br />
                     Cama marinera con 2 colchones de espuma alta densidad.<br />
                     Botiquín de primeros auxilios. Luz de emergencia.<br />
                     Juegos de mesa : Jenga, cartas españolas, cartas de poker.<br />
                     <br />
-                    <strong>VAJILLA POR 6 UNIDADES:</strong><br />
+                    <strong>VAJILLA POR 6 UNIDADES: </strong><br />
                     Platos grandes, medianos, pequeños y hondos, tazas, vasos.<br />
                     Cubiertos: Cuchillos, tenedores, cucharas grandes y pequeñas.<br />
                     <br />
-                    <strong>OTROS:</strong>2 platos plásticos, 4 vasos plásticos y 1 jarra plástica.<br />
+                    <strong>OTROS: </strong>2 platos plásticos, 4 vasos plásticos y 1 jarra plástica.<br />
                     2 tablas de madera individuales, 1 tabla de madera grande<br />
                     Abrelatas, destapador, colador, pela papas, cuchilla, cucharon, espumadera, cuchara de madera, pelapapas,
                     rallador.<br />
