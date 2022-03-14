@@ -20,8 +20,9 @@ import gde19 from '../../Imagenes/Dos-dormitorios/2.19.gif';
 import gde20 from '../../Imagenes/Dos-dormitorios/2.20.gif';
 import gde21 from '../../Imagenes/Dos-dormitorios/2.21.gif';
 
-
-
+import gde22 from '../../Imagenes/Dos-dormitorios/2.22.jpg';
+import gde23 from '../../Imagenes/Dos-dormitorios/2.23.jpg';
+import gde24 from '../../Imagenes/Dos-dormitorios/2.24.gif';
 
 
 var dos_dorm = [
@@ -51,7 +52,9 @@ var dos_dorm = [
     { img: gde7, title: "baño sanitarios" },
     { img: gde8, title: "baño ducha" },
     
-    
+    { img: gde22, title: "vista entre arboles" },
+    { img: gde23, title: "nocturna" },
+    { img: gde24, title: "2 con cielo" },
 ];
 
 
