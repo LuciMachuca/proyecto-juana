@@ -8,7 +8,9 @@ import prq8 from '../../Imagenes/Parque/3.8.gif';
 import prq9 from '../../Imagenes/Parque/3.9.gif';
 import prq10 from '../../Imagenes/Parque/3.10.gif';
 import prq11 from '../../Imagenes/Parque/3.11.gif';
-import prq12 from '../../Imagenes/Parque/3.12.gif';
+
+import prq12 from '../../Imagenes/Parque/3.12.jpg';
+
 import prq13 from '../../Imagenes/Parque/3.13.gif';
 import prq14 from '../../Imagenes/Parque/3.14.gif';
 import prq15 from '../../Imagenes/Parque/3.15.gif';
@@ -18,6 +20,11 @@ import prq18 from '../../Imagenes/Parque/3.18.gif';
 import prq19 from '../../Imagenes/Parque/3.19.gif';
 import prq20 from '../../Imagenes/Parque/3.20.gif';
 import prq21 from '../../Imagenes/Parque/3.21.gif';
+
+import prq22 from '../../Imagenes/Parque/3.22.jpeg';
+import prq23 from '../../Imagenes/Parque/3.23.jpg';
+import prq24 from '../../Imagenes/Parque/3.24.jpg';
+import prq25 from '../../Imagenes/Parque/3.25.jpg';
 
 
 var parque = [
@@ -38,10 +45,16 @@ var parque = [
     { img: prq18, title: "pileta montaña" },
     { img: prq19, title: "pileta rectángulo" },
     { img: prq1, title: "panorámica cielo" },
-    { img: prq12, title: "cab3 arcoIris" },
+
+    { img: prq12, title: "cab3 a grandes" },
+
+    { img: prq22, title: "2 y 3 desde 1" },
+
     { img: prq4, title: "vista inferior" },
-    { img: prq21, title: "entrada nocturna" }
-    
+    { img: prq21, title: "entrada nocturna" },
+    { img: prq23, title: "drone todo" },
+    { img: prq24, title: "drone costado" },
+    { img: prq25, title: "drone pileta" }
 ];
 
 export default parque;
