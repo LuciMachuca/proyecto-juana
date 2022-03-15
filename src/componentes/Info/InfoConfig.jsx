@@ -51,8 +51,9 @@ export default function infoHTML() {
                     <li>La mascota debe estar constantemente supervisada por sus dueños.</li>
                     <li>Es responsabilidad de los dueños levantar los desechos de sus animales tanto de la cabaña como del parque.</li>
                     <br />
-                    No cobramos adicional por mascota, pero <strong>pedimos un depósito de $20.000 en efectivo</strong> a garantía de posibles daños y/o
-                    el inclumiento de los apartados antes mencionados. Al momento del check out,
+                    No cobramos adicional por mascota, pero <strong>pedimos un depósito en efectivo</strong> a garantía de posibles daños y/o
+                    el inclumiento de los apartados antes mencionados.<br/> 
+                    Al momento del check out,
                     si todas las instalaciones se encuentran tal como las encontraron, se les devuelve el 100% del depósito.
                 </p>
 

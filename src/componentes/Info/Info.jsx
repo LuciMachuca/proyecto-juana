@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../NavBar.jsx';
 import Footer from '../Footer.jsx';
 import InfoHTML from './InfoConfig.jsx'
+import { ThemeProvider } from '@mui/material/styles';
 
 export default function Info() {
 
@@ -12,9 +13,9 @@ export default function Info() {
 
 
 
-            <div>
+            <ThemeProvider>
                 <InfoHTML />
-            </div>
+            </ThemeProvider>
 
 
 

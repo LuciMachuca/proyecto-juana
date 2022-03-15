@@ -23,7 +23,7 @@ function Footer() {
               <Container maxWidth="1200px" style={{padding : '0px'}} >
                 
               <Box 
-                bgcolor={theme.palette.primary.main} 
+                bgcolor='#BB9981' 
                 px={{xs: 1, lg: 0}}
                 py={{xs: 1, lg: 0}}
                 textAlign="center"
@@ -42,7 +42,7 @@ function Footer() {
                             
                       <Grid item xs={12} sm={4} margin={'auto'} >
                           <Box paddingTop={'0'} >
-                              <Typography variant='h6' fontFamily={theme.typography.fontFamily}>
+                              <Typography variant='8px' fontFamily={theme.typography.fontFamily}>
                                 Nono, Córdoba, Argentina
                               </Typography>
                               

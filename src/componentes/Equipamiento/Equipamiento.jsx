@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from '../NavBar';
 import Footer from '../Footer';
-import Desplegable from './EquipamientoConfig';
-
+import ColorTabs from './EquipamientoConfig';
+import { ThemeProvider } from '@mui/material/styles';
 
 
 export default function Equipamiento() {
@@ -12,18 +12,14 @@ export default function Equipamiento() {
 
         <div>
 
-            <div>
-                <Navbar />
-            </div>
-
-            <div>
-                <Desplegable />
-            </div>
+            <Navbar />
 
 
-            <div>
-                <Footer />
-            </div>
+            <ThemeProvider>
+                <ColorTabs />
+            </ThemeProvider>
+
+            <Footer />
 
         </div>
     )
