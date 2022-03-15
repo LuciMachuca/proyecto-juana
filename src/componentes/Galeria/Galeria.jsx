@@ -8,6 +8,7 @@ import Un_Dormitorio from './unDormController.jsx';
 //import useMediaQuery from './GaleriaConfig.jsx';
 //import Container from '@mui/material/Container';
 import BasicTabs from './GaleriaConfig.jsx';
+import { ThemeProvider } from '@mui/material/styles';
 
 
 
@@ -22,18 +23,15 @@ export default function Galeria() {
     return (
 
         <div>
-            <Navbar />
-
             
+                <Navbar />
 
-            
+                <ThemeProvider>
                 <BasicTabs />
+                </ThemeProvider>
 
-           
-
-
-            <Footer />
-
+                <Footer />
+            
         </div>
     )
 }
