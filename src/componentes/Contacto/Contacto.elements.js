@@ -1,75 +1,55 @@
 import styled from "styled-components";
+import {mobile} from "./responsive.js"
 
 export const Container = styled.div`
-max-width: 1200px;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    position: relative;
-    overflow: hidden;
-    padding-top: 30px;
-    padding-left: 30px;
     
-
-`;
-
-export const Wrapper = styled.div`
-    height: 100%;
-    display: flex;
+    max-width: 400px;
     
-    
+    ${mobile({ display: "flex", maxWidth: "1200px" })}
 
 `;
 
 export const ImgContainer = styled.div`
-    height: 100%;
-    flex: 1;
+    margin-top: 25px;
+    width: 100%;
+
+    ${mobile({ width: "50%",  })}
 `;
 
 export const Image = styled.img`
-    height: 80%;
+    width: 90%;
+    
+    margin: 0 auto;
+    margin-left: 22px;
+
+    ${mobile({ width: "100%", marginLeft: "25px", marginBottom: "20px" })}
+
 
 `;
 
 export const InfoContainer = styled.div`
     flex: 1;
-    padding-top: 120px;
-    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    padding-left: 20px;
     margin:  0 auto;
 
+    ${mobile({ margin: "auto", paddingLeft: "80px" })}
+
     
 `;
 
-export const Dir = styled.div`
+export const Dir = styled.p`
+    margin-left: 15px;
+    
     display: flex;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
    line-height: 23px;
-    
-    
-`;
+   font-size: 14px;
+   font-family: "Spartan";
 
-export const Telefono = styled.div`
-    display: flex;
-    padding-bottom: 15px;
-    line-height: 25px;
-`;
-
-export const Email = styled.div`
-    display: flex;
+   
     
-`;
-
-export const Desc = styled.div`
-    font-size: 15px;
-    font-family: 'Spartan';
-    padding-left: 15px;
-    
-`;
-
-export const DescT = styled.div`
-    font-size: 15px;
-    font-family: 'Spartan';
-    padding-left: 15px;
-    padding-top: 3px;
     
 `;

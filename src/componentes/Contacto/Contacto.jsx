@@ -15,7 +15,7 @@ export default function Contacto() {
             <NavBar />
 
             <Container>
-                <Wrapper>
+                
 
                     <ImgContainer>
                         <Image src={fcontact}  />
@@ -23,23 +23,23 @@ export default function Contacto() {
 
                     <InfoContainer>
                         <Dir>
-                            <LocationOnOutlinedIcon style={{ paddingTop: 7 }} />
-                            <Desc>Campo Miralejos. Av Los Porteños s/n <br /> Nono, Córdoba.</Desc>
+                            <LocationOnOutlinedIcon style={{ paddingTop: 7 , marginRight: "5px"}} />
+                            Campo Miralejos. Av Los Porteños s/n <br /> Nono, Córdoba.
                         </Dir>
 
-                        <Telefono>
-                            <PhoneOutlinedIcon style={{ paddingTop: 9 }}/>
-                            <Desc>+54 9 351 218-9040 <br /> +54 9 351 230-8869</Desc>
-                        </Telefono>
+                        <Dir>
+                            <PhoneOutlinedIcon style={{ paddingTop: 9, marginRight: "5px" }}/>
+                            +54 9 351 218-9040 <br /> +54 9 351 230-8869
+                        </Dir>
 
-                        <Email>
-                            <EmailOutlinedIcon />
-                            <DescT>juanacomplejo@hotmail.com</DescT>
-                        </Email>
+                        <Dir>
+                            <EmailOutlinedIcon style={{ marginRight: "8px" }}/>
+                            juanacomplejo@hotmail.com
+                        </Dir>
                         
                     </InfoContainer>
 
-                </Wrapper>
+                
             
            
 
