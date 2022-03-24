@@ -1,11 +1,11 @@
 import styled from "styled-components";
-import {mobile} from "./responsive.js"
+import {desk} from "./responsive.js"
 
 export const Container = styled.div`
     
     max-width: 400px;
     
-    ${mobile({ display: "flex", maxWidth: "1200px" })}
+    ${desk({ display: "flex", maxWidth: "1200px" })}
 
 `;
 
@@ -13,7 +13,7 @@ export const ImgContainer = styled.div`
     margin-top: 25px;
     width: 100%;
 
-    ${mobile({ width: "50%",  })}
+    ${desk({ width: "50%",  })}
 `;
 
 export const Image = styled.img`
@@ -22,7 +22,7 @@ export const Image = styled.img`
     margin: 0 auto;
     margin-left: 22px;
 
-    ${mobile({ width: "100%", marginLeft: "25px", marginBottom: "20px" })}
+    ${desk({ width: "100%", marginLeft: "25px", marginBottom: "20px" })}
 
 
 `;
@@ -35,7 +35,7 @@ export const InfoContainer = styled.div`
     padding-left: 20px;
     margin:  0 auto;
 
-    ${mobile({ margin: "auto", paddingLeft: "80px" })}
+    ${desk({ margin: "auto", paddingLeft: "80px" })}
 
     
 `;

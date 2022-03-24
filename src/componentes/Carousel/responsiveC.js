@@ -1,8 +1,8 @@
 import { css } from "styled-components"
 
-export const desk = (props) => {
+export const mob = (props) => {
     return css`
-        @media only screen and (min-width: 900px){
+        @media only screen and (max-width: 400px){
         ${props}
     }
     `;
