@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {mob} from "./responsiveC"
 
 export const Container = styled.div`
-    max-width: 1200px;
+    max-width: 1400px;
     padding-top: 15px;
     padding-bottom: 15px;
     width: 100%;
