@@ -18,19 +18,6 @@ export default function Home() {
 
             <Cards />
 
-            <h1>aqui va algo</h1>
-
-                <h1>aqui va algo</h1>
-
-                <h1>aqui va algo</h1>
-
-                <h1>aqui va algo</h1>
-                
-                <h1>aqui va algo</h1>
-                
-                <h1>aqui va algo</h1>
-
-                <h1>aqui va algo</h1>
                 
                 
             <Footer />

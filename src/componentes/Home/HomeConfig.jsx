@@ -20,7 +20,7 @@ export default function Cards() {
 
     <div className={classes.root} >
 
-      <Grid container spacing={2}>
+      <Grid container spacing={3} >
 
         <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
           <LosRemansos />
