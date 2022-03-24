@@ -96,7 +96,6 @@ function Footer() {
                                 sx={{
                                 width: '50%',    
                                 height: '97%',
-                                
                                 /* maxHeight: { xs: '80%', sm: '100%' },
                                 maxWidth: { xs: 500, sm: '100%' }, */
                                 }}

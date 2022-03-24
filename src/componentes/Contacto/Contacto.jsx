@@ -23,19 +23,19 @@ export default function Contacto() {
 
                     <InfoContainer>
                         <Dir>
-                            <LocationOnOutlinedIcon style={{ paddingTop: 7 , marginRight: "5px"}} />
+                            <LocationOnOutlinedIcon style={{ color: '#C5D8A4', paddingTop: 7 , marginRight: "5px"}} />
                             Campo Miralejos. Av Los Porteños s/n <br /> Nono, Córdoba.
                         </Dir>
 
                         <Dir>
-                            <PhoneOutlinedIcon style={{ paddingTop: 9, marginRight: "5px" }}/>
+                            <PhoneOutlinedIcon style={{ color: '#C5D8A4', paddingTop: 9, marginRight: "5px" }}/>
                             +54 9 351 218-9040 <br /> +54 9 351 230-8869
                         </Dir>
 
                         <Dir>
-                            <EmailOutlinedIcon style={{ marginRight: "8px" }}/>
+                            <EmailOutlinedIcon style={{ color: '#C5D8A4', marginRight: "8px" }}/>
                             juanacomplejo@hotmail.com
-                        </Dir>
+                        </Dir> 
                         
                     </InfoContainer>
 
