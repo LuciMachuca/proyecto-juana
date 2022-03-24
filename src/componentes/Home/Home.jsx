@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../Footer';
 //import Navbar from './HomeConfig';
 import Navbar from '../NavBar';
+import Cards from './HomeConfig.jsx';
 
 export default function Home() {
   
@@ -11,6 +12,8 @@ export default function Home() {
         <div>
 
             <Navbar/>
+
+            <Cards />
 
             <h1>aqui va algo</h1>
 

@@ -1,35 +1,64 @@
-import React from 'react';
-//import Button from '@mui/material/Button'
+import * as React from 'react';
+import Grid from '@mui/material/Grid';
 import { makeStyles } from '@mui/styles';
-//import theme from './themeConfig';
-//import NavBar from './componentes/NavBar.jsx';
-import Typography from '@mui/material/Typography'
-import AppBar from '@mui/material/AppBar'
-import Toolbar from '@mui/material/Toolbar'
 
-const useStyles = makeStyles(theme => ({
-    offset: theme.mixins.toolbar,  // coloca el alto de forma dinámica
-    
-}))
 
-// adentro de la función
-// const l = useStyles();
+import { Laberinto, LosRemansos, MinaClavero, MuseoRocsen, NidoDelAguila, NonoCentro, PasoDeLasTropas, PuentesColgantes, ValleEncantado } from './CardsConfig.jsx';
 
-export default function Navbar() {
-    const clas = useStyles();
+const useStyles = makeStyles(() => ({
+  root: {
+    flexGrow: 1
+  }
+}));
 
-    return (
 
-        <div>
-            <AppBar position="fixed" color="primary">
-              <Toolbar>
-                <Typography variant="h6">
-                  Logo
-                </Typography>
-              </Toolbar>
-            </AppBar>
+export default function Cards() {
 
-            <div className={clas.offset}></div>
-        </div>
-    )
+  const classes = useStyles();
+
+  return (
+
+    <div className={classes.root} >
+
+      <Grid container spacing={2}>
+
+        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+          <LosRemansos />
+        </Grid>
+
+        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+          <NonoCentro />
+        </Grid>
+
+        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+          <MuseoRocsen />
+        </Grid>
+
+        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+          <Laberinto />
+        </Grid>
+
+        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+          <PasoDeLasTropas />
+        </Grid>
+
+        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+          <MinaClavero />
+        </Grid>
+
+        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+          <NidoDelAguila />
+        </Grid>
+
+        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+          <ValleEncantado />
+        </Grid>
+
+        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+          <PuentesColgantes />
+        </Grid>
+
+      </Grid>
+    </div>
+  )
 }
