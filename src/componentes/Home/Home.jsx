@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from '../Carousel/Carousel';
 import Footer from '../Footer';
 //import Navbar from './HomeConfig';
 import Navbar from '../NavBar';
@@ -12,6 +13,8 @@ export default function Home() {
         <div>
 
             <Navbar/>
+
+            <Carousel />
 
             <Cards />
 
