@@ -2,8 +2,12 @@ import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import { makeStyles } from '@mui/styles';
 
+import SentimentVerySatisfiedIcon from '@mui/icons-material/SentimentVerySatisfied';
+import VerifiedIcon from '@mui/icons-material/Verified';
+import WifiIcon from '@mui/icons-material/Wifi';
 
-import { Laberinto, LosRemansos, MinaClavero, MuseoRocsen, NidoDelAguila, NonoCentro, PasoDeLasTropas, PuentesColgantes, ValleEncantado } from './CardsConfig.jsx';
+
+import { Intro, Laberinto, LosRemansos, MinaClavero, MuseoRocsen, NidoDelAguila, NonoCentro, PasoDeLasTropas, PuentesColgantes, ValleEncantado } from './CardsConfig.jsx';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -20,7 +24,12 @@ export default function Cards() {
 
     <div className={classes.root} >
 
-      <Grid container spacing={3} >
+      <Grid container spacing={2} padding={4}>
+
+        <Grid item xs={12}>
+          <Intro />
+        </Grid>
+
 
         <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
           <LosRemansos />

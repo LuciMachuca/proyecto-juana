@@ -1,0 +1,46 @@
+.enun{
+    padding: 5;
+    font-size: 17px;
+    line-height: 30px;
+    display: flexbox;
+    text-align: center;
+    font-style: italic;
+    
+    
+}
+
+.comienzo1{
+    color: #C5D8A4;
+    display: flexbox;
+    text-align: center;
+    font-size: 30px;
+}
+
+.lugares{
+    color: #534340;
+    display: flexbox;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-family: "Roboto";
+}
+
+.linea1{
+    padding: 5;
+    color: #534340;
+}
+
+.icon{
+    
+    color: #534340;
+    display:contents;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    
+    font-size: 70px;
+    width: 100px;
+    height: 70px;
+    justify-self: center;
+}
