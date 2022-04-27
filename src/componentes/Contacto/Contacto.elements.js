@@ -4,6 +4,8 @@ import {mobile} from "./responsive.js"
 export const Container = styled.div`
     
     max-width: 400px;
+    margin-top: 27px;
+    margin-bottom: 28px;
     
     ${mobile({ display: "flex", maxWidth: "1200px" })}
 

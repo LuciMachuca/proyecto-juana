@@ -12,7 +12,7 @@ function Carousel() {
         if(direction === "left"){
             setSlideIndex(slideIndex > 0 ? slideIndex-1 : 2)
         }else{
-            setSlideIndex(slideIndex < 5 ? slideIndex +1 : 0)
+            setSlideIndex(slideIndex < 8 ? slideIndex +1 : 0)
         }
     }
   return (
