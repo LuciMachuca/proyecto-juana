@@ -1,8 +1,8 @@
 import React from 'react';
 import NavBar from '../NavBar'
 import Footer from '../Footer'
-import { Container, Desc, DescT, Dir, Email, Image, ImgContainer, InfoContainer, Telefono, Wrapper } from './Contacto.elements';
-import fcontact from '../../Imagenes/Parque/3.11.gif';
+import { Container, Dir, Image, ImgContainer, InfoContainer } from './Contacto.elements';
+import fcontact from '../../ImgComentarios/mapaCONTACTOS.png';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import PhoneOutlinedIcon from '@mui/icons-material/PhoneOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';

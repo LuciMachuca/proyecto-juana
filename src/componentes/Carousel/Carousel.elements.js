@@ -41,6 +41,8 @@ export const Wrapper = styled.div`
     height: 50%;
     display: flex;
     transition: all 1.5s ease;
+    
+   
     transform: translateX(${props=>props.slideIndex * -100}vw);
     
     
@@ -51,6 +53,8 @@ export const Slide = styled.div`
     height: 50%;
     display: flex;
     align-items: center;
+    
+    
     
     ${mob({ display: "block", })}
 `;
@@ -72,11 +76,13 @@ export const Image = styled.img`
 
 export const InfoContainer = styled.div`
     width: 50%;
+   
    /*  flex: 1; */
 
    ${mob({ width: "95%", })}
 `;
 
 export const ImageComen = styled.img`
+
     width: 100%;
 `;
