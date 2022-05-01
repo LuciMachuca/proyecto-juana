@@ -2,9 +2,9 @@ import React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import Footer from '../Home/Footer.jsx';
 import Navbar from '../Home/NavBar.jsx';
-import EquipamientoConfig from './EquipamientoConfig.jsx';
+import InformacionConfig from './InformacionConfig.jsx';
 
-export default function Equipamiento() {
+export default function Informacion() {
 
     return (
 
@@ -13,7 +13,7 @@ export default function Equipamiento() {
                 <Navbar />
 
                 <div className="container  mt-5 pt-5">
-                    <EquipamientoConfig />
+                    <InformacionConfig />
                 </div>
 
                 <Footer />

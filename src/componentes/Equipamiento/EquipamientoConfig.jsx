@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Cab1Dorm from './cab1Dorm.jsx';
 import Cab2Dorm from './cab2Dorm.jsx';
+import './Equipamiento.css';
 
 
 function TabPanel(props) {
@@ -41,23 +42,18 @@ function a11yProps(index) {
   };
 }
 
-export default function Desplegable() {
+export default function EquipamientoConfig() {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-
-  
+    
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
-
-  
-
-  
 
   return (
     <Box  sx={{ width: '100%'  }}>

@@ -1,4 +1,5 @@
 import * as React from 'react';
+import './Equipamiento.css';
 
 
 export default function Cab2Dorm() {
@@ -7,10 +8,11 @@ export default function Cab2Dorm() {
 
             <div className='suelto'>
                 
-                <h4>WIFI GRATUITO Y LIBRE</h4>
-                <h4>Todas las ventanas de la cabaña tienen doble vidrio,<br />
-                    tela mosquitera y cortinas black out.</h4>
+                <h6>WIFI GRATUITO Y LIBRE</h6>
+                <h6>Todas las ventanas de la cabaña tienen doble vidrio,<br />
+                    tela mosquitera y cortinas black out.</h6>
             </div>
+            <br />
 
             <div>
                 <h3>EXTERIOR</h3>

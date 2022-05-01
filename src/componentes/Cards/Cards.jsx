@@ -2,11 +2,6 @@ import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import { makeStyles } from '@mui/styles';
 
-import SentimentVerySatisfiedIcon from '@mui/icons-material/SentimentVerySatisfied';
-import VerifiedIcon from '@mui/icons-material/Verified';
-import WifiIcon from '@mui/icons-material/Wifi';
-
-
 import { Intro, Laberinto, LosRemansos, MinaClavero, MuseoRocsen, NidoDelAguila, NonoCentro, PasoDeLasTropas, PuentesColgantes, ValleEncantado } from './CardsConfig.jsx';
 
 const useStyles = makeStyles(() => ({
@@ -24,46 +19,46 @@ export default function Cards() {
 
     <div className={classes.root} >
 
-      <Grid container spacing={2} padding={4}>
+      <Grid container spacing={1} padding={1} justifyContent="center" marginBottom={3}>
 
-        <Grid item xs={12}>
+        <Grid item xs={12} justifyContent="center" textAlign="center">
           <Intro />
         </Grid>
 
 
-        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+        <Grid item xs={12} sm={6} md={4} lg={4} xl={4} >
           <LosRemansos />
         </Grid>
 
-        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+        <Grid item xs={12} sm={6} md={4} lg={4} xl={4} >
           <NonoCentro />
         </Grid>
 
-        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+        <Grid item xs={12} sm={6} md={4} lg={4} xl={4} >
           <MuseoRocsen />
         </Grid>
 
-        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+        <Grid item xs={12} sm={6} md={4} lg={4} xl={4} >
           <Laberinto />
         </Grid>
 
-        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+        <Grid item xs={12} sm={6} md={4} lg={4} xl={4} >
           <PasoDeLasTropas />
         </Grid>
 
-        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+        <Grid item xs={12} sm={6} md={4} lg={4} xl={4} >
           <MinaClavero />
         </Grid>
 
-        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+        <Grid item xs={12} sm={6} md={4} lg={4} xl={4} >
           <NidoDelAguila />
         </Grid>
 
-        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+        <Grid item xs={12} sm={6} md={4} lg={4} xl={4} >
           <ValleEncantado />
         </Grid>
 
-        <Grid item xs={12} sm={4} md={4} lg={4} xl={4} >
+        <Grid item xs={12} sm={6} md={4} lg={4} xl={4} >
           <PuentesColgantes />
         </Grid>
 
