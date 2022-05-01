@@ -1,12 +1,13 @@
 import * as React from 'react';
-import './info.css';
+import './Informacion.css';
 
 
-export default function infoHTML() {
+export default function InformacionConfig() {
     return (
-        <div className='general'>
+        <div className='general  my-5'>
 
             <div className='inicio'>
+            
                 <p><strong className='comienzo'>Doña Juana </strong>es un complejo que cuenta con 3 cabañas, una cochera exterior,
                     pileta cercada y un parque grande con vista a las montañas.<br/>
                     Nuestro complejo se encuentra en un campo privado llamado  “Campo Miralejos”, de fácil acceso

@@ -3,9 +3,9 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
-import theme from '../themeConfig'
-import Logo from '../Imagenes/Logo_Limpio_m.png';
-import LogoBoo from '../Imagenes/booking_logo_icon.png';
+import theme from '../../themeConfig.jsx';
+import Logo from '../../Imagenes/Logo_Limpio_m.png';
+import LogoBoo from '../../Imagenes/booking_logo_icon.png';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';

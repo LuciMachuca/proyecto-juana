@@ -1,7 +1,7 @@
 .enun{
-    padding: 5;
-    font-size: 17px;
-    line-height: 30px;
+    padding: 5px;
+    font-size: 14px;
+    line-height: 25px;
     display: flexbox;
     text-align: center;
     font-style: italic;
@@ -13,7 +13,7 @@
     color: #C5D8A4;
     display: flexbox;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .lugares{
@@ -22,12 +22,14 @@
     text-align: center;
     font-size: 30px;
     font-style: normal;
-    font-family: "Roboto";
+    font-family: "Roboto"; 
+    font-family: "Spartan"
 }
 
 .linea1{
     padding: 5;
     color: #534340;
+    opacity: 100;
 }
 
 .icon{

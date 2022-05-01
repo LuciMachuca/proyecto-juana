@@ -42,7 +42,7 @@ function a11yProps(index) {
   };
 }
 
-export default function BasicTabs() {
+export default function GaleriaConfig() {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
