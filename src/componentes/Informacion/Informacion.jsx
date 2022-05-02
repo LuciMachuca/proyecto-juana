@@ -12,7 +12,7 @@ export default function Informacion() {
             <ThemeProvider>
                 <Navbar />
 
-                <div className="container  mt-5 pt-5">
+                <div className="container  mt-2 mt-md-5 pt-5">
                     <InformacionConfig />
                 </div>
 

@@ -33,6 +33,7 @@ export default function Carrusel() {
                     </div>
                 </div>
 
+
                 <div class="carousel-item">
                     <div className="container">
                         <div className="row text-center h-100 h-md-30" id="caja">
@@ -107,7 +108,7 @@ export default function Carrusel() {
 
             </div>
 
-        
+
 
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>

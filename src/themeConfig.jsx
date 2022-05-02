@@ -1,4 +1,3 @@
-//import { createTheme } from '@mui/material/styles';
 import { createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
@@ -12,15 +11,6 @@ const theme = createTheme({
         fontFamily: 'Spartan',
         fontSize: 12,
     },
-
-    /* breakpoints: {
-        values: {
-          mobile: 0,
-          tablet: 640,
-          laptop: 1024,
-          desktop: 1200,
-        },
-      }, */
 });
 
 

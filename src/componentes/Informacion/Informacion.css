@@ -1,16 +1,10 @@
 
-/* .general{
-    padding: 4em 2em 3em;
-   
-} */
-
 p{
     font-family: 'Spartan', sans-serif;
     font-size: 14px;
-    margin-top: -10px;
     line-height: 1.625;
     font-weight: 500;
-    
+    margin-top: -5px;
 }
 
 .comienzo{
@@ -18,19 +12,12 @@ p{
     color: #C5D8A4;
 }
 
-hr {
-    /* color: #0288d1; */
+.linea{
+    color: #C5D8A4;
     border-color: #C5D8A4; 
-    color-interpolation-filters: auto;
-    display: block;
-    unicode-bidi: isolate;
-    margin-block-start: -1em;
-    margin-block-end: 2em;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
     overflow: hidden;
     border-style: inset;
     border-width: 0.5px;
-    /* opacity: 70%; */
+    margin-top: -5px;
 
 }

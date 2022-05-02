@@ -19,7 +19,7 @@ export default function Cards() {
 
     <div className={classes.root} >
 
-      <Grid container spacing={1} padding={1} justifyContent="center" marginBottom={3}>
+      <Grid container spacing={2} padding={1} justifyContent="center" marginBottom={3}>
 
         <Grid item xs={12} justifyContent="center" textAlign="center">
           <Intro />

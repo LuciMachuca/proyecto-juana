@@ -27,7 +27,7 @@
 }
 
 .linea1{
-    padding: 5;
+    
     color: #534340;
     opacity: 100;
 }
@@ -40,7 +40,6 @@
     align-items: center;
     align-content: center;
     align-self: center;
-    
     font-size: 70px;
     width: 100px;
     height: 70px;
