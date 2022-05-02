@@ -6,9 +6,9 @@ export default function Cab2Dorm() {
     return (
         <div>
 
-            <div className='suelto'>
+            <div className='intro'>
                 
-                <h6>WIFI GRATUITO Y LIBRE</h6>
+                <h6>WIFI LIBRE Y GRATUITO</h6>
                 <h6>Todas las ventanas de la cabaña tienen doble vidrio,<br />
                     tela mosquitera y cortinas black out.</h6>
             </div>
@@ -16,14 +16,14 @@ export default function Cab2Dorm() {
 
             <div>
                 <h3>EXTERIOR</h3>
-                <p className='p-1dorm'>Cochera, quincho y asador privados.<br />
+                <p className='parrafos'>Cochera, quincho y asador privados.<br />
                     Mesa tablón de madera con 2 caballetes y 5 sillas plásticas. Parrilla y utensillos parrilleros. Cenicero.<br />
                     Tendedero de metal con broches.<br /></p>
             </div>
 
             <div>
                 <h3>DORMITORIOS</h3>
-                <p className='p-1dorm'><span>PRINCIPAL:</span>Somier doble, placard con perchas, mesas de luz con veladores.<br />
+                <p className='parrafos'><span>PRINCIPAL:</span>Somier doble, placard con perchas, mesas de luz con veladores.<br />
                     Ventilador de techo, aire acondicionado frío calor y calefactor de tiro balanceado.<br />
                     <span>SECUNDARIO: </span>2 somiers de 1 plaza, placard con perchas, mesas de luz con veladores.<br />
                     Ventilador de techo, calefactor de tiro balanceado.<br />
@@ -34,7 +34,7 @@ export default function Cab2Dorm() {
 
             <div>
                 <h3>SANITARIO </h3>
-                <p className='p-1dorm'>Ducha con agua caliente 24 hs.<br />
+                <p className='parrafos'>
                     Alfombra antideslizante.<br />
                     OTROS: 1 toalla de mano, 1 rollo de papel higiénico y 1 jabón de tocador.<br />
                 </p>
@@ -42,7 +42,7 @@ export default function Cab2Dorm() {
 
             <div>
                 <h3>COCINA COMEDOR</h3>
-                <p className='p-1dorm'>Cocina con horno, heladera con freezer, pava eléctrica, horno microondas.<br />
+                <p className='parrafos'>Cocina con horno, heladera con freezer, pava eléctrica, horno microondas.<br />
                     Smart TV led 32” con Directv.<br />
                     Mesa de madera con 6 sillas. Aire acondicionado frío calor.<br />
                     Cama marinera con 2 colchones de espuma alta densidad.<br />
@@ -67,7 +67,7 @@ export default function Cab2Dorm() {
 
             <div>
                 <h3>LIMPIEZA</h3>
-                <p className='p-1dorm'>Escoba, pala plástica, balde, mopa, limpiador de inodoros, secador y trapo de piso.<br />
+                <p className='parrafos'>Escoba, pala plástica, balde, mopa, limpiador de inodoros, secador y trapo de piso.<br />
                     Cestos de basura con bolsa en cocina y baño.<br />
                     Detergente, esponja y valerina.<br /></p>
             </div>

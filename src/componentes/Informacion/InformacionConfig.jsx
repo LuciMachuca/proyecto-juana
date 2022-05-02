@@ -4,7 +4,7 @@ import './Informacion.css';
 
 export default function InformacionConfig() {
     return (
-        <div className='general  my-5'>
+        <div className='general'>
 
             <div className='inicio'>
             

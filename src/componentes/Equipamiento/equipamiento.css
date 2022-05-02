@@ -1,23 +1,19 @@
-.suelto{
-    
+.intro{
     font-family: 'Spartan';
-    font-size: 15px;
-    
+    font-size: 12px;
 }
 
-
 h3{
-   
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style:oblique 20deg;
     font-size: 23px;
     color: #C5D8A4;  
 }
 
-.p-1dorm{
+.parrafos{
     font-family: 'Spartan', sans-serif;
-    font-size: 14px;
+    /* font-size: 14px; */
     font-weight: 500;
-   padding-top: 5px;
+    line-height: 1.625;
 }
 

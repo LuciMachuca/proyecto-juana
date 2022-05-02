@@ -12,7 +12,7 @@ export default function Galeria() {
             <ThemeProvider>
                 <Navbar />
 
-                <div className="container  mt-5 pt-5">
+                <div className="container mt-5 pt-5">
                     <GaleriaConfig />
                 </div>
 

@@ -97,7 +97,7 @@ export function MuseoRocsen() {
         </Typography>
         <Typography variant="body2" color="text.secondary">
           Fundado en 1969 y con una exhibición de más de 60.000 piezas de todo el mundo,
-          el museo resume la evolución humana en toda su extensión.
+          el museo resume la evolución humana en toda su extensión.<br />
         </Typography>
       </CardContent>
 
@@ -321,7 +321,6 @@ export function Intro() {
       <div>
       <br />
         <h3 className='lugares'>Lugares de Interés para toda la Familia</h3>
-        <br />
         <hr className='linea1' />
       </div>
 

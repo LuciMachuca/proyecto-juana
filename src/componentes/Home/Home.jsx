@@ -28,8 +28,7 @@ export default function Home() {
                     <div>
                         <br />
                         <h3 className='lugares'>Galería de Imágenes</h3>
-                        <br />
-                        <hr className='linea1' />
+                        <hr className='linea1 mt-1' />
                         <br />
                         <GaleriaConfig />
                     </div>
@@ -38,16 +37,14 @@ export default function Home() {
                     <div>
                         <br />
                         <h3 className='lugares'>Información</h3>
-                        <br />
-                        <hr className='linea1' />
+                        <hr className='linea1 mt-1' />
                         <InformacionConfig />
                     </div>
 
                     <div>
                         <br />
                         <h3 className='lugares'>Equipamiento</h3>
-                        <br />
-                        <hr className='linea1' />
+                        <hr className='linea1 mt-1' />
                         <br />
                         <EquipamientoConfig />
                     </div>
@@ -55,8 +52,7 @@ export default function Home() {
                     <div>
                         <br />
                         <h3 className='lugares'>Contacto</h3>
-                        <br />
-                        <hr className='linea1' />
+                        <hr className='linea1 mt-1' />
                         <ContactoConfig />
                     </div>
 

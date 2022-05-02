@@ -6,9 +6,9 @@ export default function Cab1Dorm() {
     return (
         <div>
 
-            <div className='suelto'>
+            <div className='intro'>
                 
-                <h6>WIFI GRATUITO Y LIBRE</h6>
+                <h6>WIFI LIBRE Y GRATUITO</h6>
                 <h6>Todas las ventanas de la cabaña tienen doble vidrio,<br />
                     tela mosquitera y cortinas black out.</h6>
             </div>
@@ -16,14 +16,14 @@ export default function Cab1Dorm() {
 
             <div className='exterior'>
                 <h3>EXTERIOR</h3>
-                <p className='p-1dorm'>Cochera exterior semi cubierta con luz solar. Quincho y asador privados.<br />
+                <p className='parrafos'>Cochera exterior semi cubierta con luz solar. Quincho y asador privados.<br />
                     Mesa y 4 sillas plásticas. Parrilla y utensillos parrilleros. Cenicero.<br />
                     Tendedero de metal con broches.<br /></p>
             </div>
 
             <div className='dormitorio'>
                 <h3>DORMITORIO</h3>
-                <p className='p-1dorm'>Somier doble, placard con perchas, mesas de luz con veladores, aire acondicionado frío calor.<br />
+                <p className='parrafos'>Somier doble, placard con perchas, mesas de luz con veladores, aire acondicionado frío calor.<br />
                     <strong>ROPA DE CAMA: </strong>Sábanas, Almohadas, acolchados y mantas de polar.<br />
                     NO INCLUIMOS TOALLAS ((Las ofrecemos de forma opcional, con costo adicional)).<br />
                 </p>
@@ -31,7 +31,7 @@ export default function Cab1Dorm() {
 
             <div className='sanitario'>
                 <h3>SANITARIO</h3>
-                <p className='p-1dorm'>Ducha con agua caliente 24 hs.<br />
+                <p className='parrafos'>
                     Alfombra antideslizante.<br />
                     OTROS: 1 toalla de mano, 1 rollo de papel higiénico y 1 jabón de tocador.<br />
                 </p>
@@ -39,7 +39,7 @@ export default function Cab1Dorm() {
 
             <div className='cocina'>
                 <h3>COCINA COMEDOR</h3>
-                <p className='p-1dorm'>Cocina con horno, heladera con freezer, pava eléctrica, horno microondas.<br />
+                <p className='parrafos'>Cocina con horno, heladera con freezer, pava eléctrica, horno microondas.<br />
                     Smart TV led 32” con Directv.<br />
                     Mesa de madera y 4 sillas. Aire acondicionado frío calor.<br />
                     Cama marinera con 2 colchones de espuma alta densidad.<br />
@@ -64,7 +64,7 @@ export default function Cab1Dorm() {
 
             <div className='limpieza'>
                 <h3>LIMPIEZA</h3>
-                <p className='p-1dorm'>Escoba, pala plástica, balde, mopa, limpiador de inodoros, secador y trapo de piso.<br />
+                <p className='parrafos'>Escoba, pala plástica, balde, mopa, limpiador de inodoros, secador y trapo de piso.<br />
                     Cestos de basura con bolsa en cocina y baño.<br />
                     Detergente, esponja y valerina.<br /></p>
             </div>
