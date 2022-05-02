@@ -17,23 +17,23 @@ export default function ContactoConfig() {
                 </div>
             </div>
 
-            <div className="container my-3 my-md-4">
+            <div className="container my-5 my-md-5">
                 <div className="row text-center">
 
                     <div className="col-12">
-                        <LocationOnOutlinedIcon style={{ color: '#C5D8A4',  marginRight: "5px" }} />
+                        <LocationOnOutlinedIcon style={{ color: '#27ECB1', marginRight: "5px" }} />
                         Campo Miralejos. Av Los Porteños s/n <br /> Nono, Córdoba.
                         <br />
                     </div>
 
                     <div className="col-12 mt-3">
-                        <PhoneOutlinedIcon style={{ color: '#C5D8A4', paddingTop: 9, marginRight: "5px" }} />
+                        <PhoneOutlinedIcon style={{ color: '#27ECB1', paddingTop: 9, marginRight: "5px" }} />
                         +54 9 351 218-9040 <br /> +54 9 351 230-8869
                         <br />
                     </div>
 
                     <div className="col-12 mt-3">
-                        <EmailOutlinedIcon style={{ color: '#C5D8A4', marginRight: "8px" }} />
+                        <EmailOutlinedIcon style={{ color: '#27ECB1', marginRight: "8px" }} />
                         juanacomplejo@hotmail.com
                         <br />
                     </div>

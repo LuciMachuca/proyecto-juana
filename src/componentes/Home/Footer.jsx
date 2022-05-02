@@ -4,15 +4,13 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import theme from '../../themeConfig.jsx';
-import Logo from '../../Imagenes/Logo_Limpio_m.png';
+import NvoLogo from '../../Imagenes/NvoLogo.png';
 import LogoBoo from '../../Imagenes/booking_logo_icon.png';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import EmailIcon from '@mui/icons-material/Email';
 import { Button, Typography } from '@mui/material';
-
-
 
 
 
@@ -27,51 +25,35 @@ function Footer() {
                     px={{ xs: 1, lg: 0 }}
                     py={{ xs: 1, lg: 0 }}
                     textAlign="center"
-                    /* maxWidth="lg" */
-                    //display={'flex'}
-                    //maxWidth={'1200px'}
-                    /* sx={{  display: { xs: 'flex', lg: 'flex'}, flexDirection: {xs: 'column', lg: 'row'} }} */
-                    sx={{ display: { xs: 'block', md: 'flex' } }}
-
-                /*  */
-
-
-                >
-
-
+                    sx={{ display: { xs: 'block', md: 'flex' } }} >
 
                     <Grid item xs={12} md={4} margin={'auto'} >
                         <Box paddingTop={'0'} >
-                            <Typography variant='8px' fontFamily={theme.typography.fontFamily}>
+                            <Typography variant='8px' fontWeight="600" fontFamily={theme.typography.fontFamily}>
                                 Nono, Córdoba, Argentina
                             </Typography>
 
                         </Box>
-
                     </Grid>
 
 
                     <Grid xs={12} md={4} overflow='hidden'
-                        justifyContent="center"
+                        justifyContent="center" >
 
-                    >
                         <Box component="img" margin={'auto'}
-
                             sx={{
-                                width: '12rem',
-                                height: '5rem',
-                                justifyContent:"center"
+                                width: '10rem',
+                                height: '4rem',
+                                justifyContent: "center"
                             }}
                             alt="Logo."
-                            src={Logo} />
-
-
+                            src={NvoLogo} />
 
                     </Grid>
 
 
                     <Grid item xs={12} md={4} margin={'auto'}>
-                        <Box /* paddingTop={'21px'} */ justifyContent={'center'}>
+                        <Box justifyContent={'center'}>
                             <Button target={'_blank'} href="https://www.facebook.com/cordobasierras" style={{ color: 'black' }} >
                                 <FacebookIcon />
                             </Button>
@@ -92,8 +74,9 @@ function Footer() {
                                 <Box component="img" margin={'auto'}
 
                                     sx={{
-                                        width: '50%',
-                                        height: '97%'
+                                        width: '2rem',
+                                        height: '1rem',
+                                        color: 'black'
                                     }}
                                     alt="LogoB."
                                     src={LogoBoo} />

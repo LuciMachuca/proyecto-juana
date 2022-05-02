@@ -48,7 +48,7 @@ export default function EquipamientoConfig() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-    
+
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleCloseNavMenu = () => {
@@ -56,22 +56,22 @@ export default function EquipamientoConfig() {
   };
 
   return (
-    <Box  sx={{ width: '100%'  }}>
+    <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="1 Dormitorio" {...a11yProps(0)}  /> 
-          <Tab label="2 Dormitorios" {...a11yProps(1)}/> 
+          <Tab label="1 Dormitorio" {...a11yProps(0)} />
+          <Tab label="2 Dormitorios" {...a11yProps(1)} />
         </Tabs>
       </Box>
 
       <TabPanel value={value} index={0}>
-      <Cab1Dorm/>
+        <Cab1Dorm />
       </TabPanel>
 
       <TabPanel value={value} index={1}>
-      <Cab2Dorm/>
+        <Cab2Dorm />
       </TabPanel>
-      
+
     </Box>
   );
 }

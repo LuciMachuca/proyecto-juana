@@ -10,14 +10,14 @@
 }
 
 .comienzo1{
-    color: #C5D8A4;
+    color: #27ECB1;
     display: flexbox;
     text-align: center;
     font-size: 20px;
 }
 
 .lugares{
-    color: #534340;
+    color: #BB9981;
     display: flexbox;
     text-align: center;
     font-size: 30px;
@@ -28,7 +28,7 @@
 
 .linea1{
     
-    color: #534340;
+    color: #BB9981;
     opacity: 100;
 }
 

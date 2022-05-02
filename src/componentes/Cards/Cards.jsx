@@ -21,7 +21,7 @@ export default function Cards() {
 
       <Grid container spacing={2} padding={1} justifyContent="center" marginBottom={3}>
 
-        <Grid item xs={12} justifyContent="center" textAlign="center">
+        <Grid item xs={12} justifyContent="center" textAlign="center" >
           <Intro />
         </Grid>
 
