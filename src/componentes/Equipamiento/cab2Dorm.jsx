@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './Equipamiento.css';
+import './equipamiento.css';
 
 
 export default function Cab2Dorm() {

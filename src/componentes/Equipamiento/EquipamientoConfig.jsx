@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Cab1Dorm from './cab1Dorm.jsx';
 import Cab2Dorm from './cab2Dorm.jsx';
-import './Equipamiento.css';
+import './equipamiento.css';
 
 
 function TabPanel(props) {
