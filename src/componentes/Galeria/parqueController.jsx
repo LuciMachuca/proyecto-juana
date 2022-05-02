@@ -9,7 +9,6 @@ import Box from '@mui/material/Box';
 
 const Parque = () => {
 
-    // para la responsividad  --------------------------------
     const [anchorElNav, setAnchorElNav] = React.useState(null);
 
     const handleOpenNavMenu = (event) => {
@@ -20,7 +19,7 @@ const Parque = () => {
         setAnchorElNav(null);
     };
 
-    //------------------------------------------------------
+
 
     return (
 

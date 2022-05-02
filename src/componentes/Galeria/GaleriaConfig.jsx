@@ -49,42 +49,39 @@ export default function GaleriaConfig() {
     setValue(newValue);
   };
 
-  // para la responsividad  --------------------------------
+  
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
- const handleOpenNavMenu = (event) => {
+  const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
- 
+
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-  //------------------------------------------------------
-
-  
 
   return (
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="Parque" {...a11yProps(0)}  /> 
-          <Tab label="Cabaña de 1 Dormitorio" {...a11yProps(1)}/> 
-          <Tab label="Cabaña de 2 Dormitorios" {...a11yProps(2)}/> 
+          <Tab label="Parque" {...a11yProps(0)} />
+          <Tab label="Cabaña de 1 Dormitorio" {...a11yProps(1)} />
+          <Tab label="Cabaña de 2 Dormitorios" {...a11yProps(2)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-      <Parque/>
+        <Parque />
       </TabPanel>
       <TabPanel value={value} index={1}>
-      <UnDormitorio/>
+        <UnDormitorio />
       </TabPanel>
       <TabPanel value={value} index={2}>
-      <DosDormitorios/>
+        <DosDormitorios />
       </TabPanel>
     </Box>
   );
-} 
+}
 
 
 

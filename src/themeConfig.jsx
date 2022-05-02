@@ -4,7 +4,7 @@ const theme = createTheme({
     palette: {
         primary: { main: '#534340' },
         secondary: { main: '#95E1D3' },
-        neutral: { main: '#EAFFD0' },
+        neutral: { main: '#C8F2EF' },
         
     },
     typography: {
@@ -15,3 +15,4 @@ const theme = createTheme({
 
 
 export default theme;
+

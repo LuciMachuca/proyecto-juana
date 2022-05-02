@@ -4,9 +4,9 @@ import './Informacion.css';
 
 export default function InformacionConfig() {
     return (
-        <div className='general'>
+        <div className='container'>
 
-            <div className='inicio'>
+            <div className='inicio mt-5'>
             
                 <p><strong className='comienzo'>Doña Juana </strong>es un complejo que cuenta con 3 cabañas, una cochera exterior,
                     pileta cercada y un parque grande con vista a las montañas.<br/>
@@ -27,7 +27,7 @@ export default function InformacionConfig() {
                 </p>
             </div>
 
-            <div className='ingreso-egreso'>
+            <div className='ingreso-egreso mt-4'>
                 <h3>CHECK IN Y CHECK OUT</h3><hr className='linea'/>
                 <p><strong>Horario de check in: </strong>A partir de las 14 hs.<br />
                     <strong>Horario de check out: </strong>Hasta las 10 am.<br />
@@ -41,7 +41,7 @@ export default function InformacionConfig() {
 
             </div>
 
-            <div className='mascotas'>
+            <div className='mascotas mt-4'>
                 <h3>TU MASCOTA ES BIENVENIDA!</h3><hr className='linea'/>
                 <p>Nos alegramos de ser un Complejo amigable con los animales!
                     Para garantizar una estadía placentera y tranquila, Cabañas Doña Juana tiene algunas consideraciones
@@ -60,7 +60,7 @@ export default function InformacionConfig() {
 
             </div>
 
-            <div className='servicios'>
+            <div className='servicios mt-4'>
                 <h3>SERVICIOS DE LIMPIEZA, DESAYUNO Y LAVANDERÍA</h3><hr className='linea'/>
                 <p><strong>Éstos no se incluyen en la tarifa </strong>pero son opcionales con costo adicional y
                     están a cargo de nuestra colaboradora de confianza.<br />
