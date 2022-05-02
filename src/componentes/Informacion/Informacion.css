@@ -1,0 +1,23 @@
+
+p{
+    font-family: 'Spartan', sans-serif;
+    font-size: 14px;
+    line-height: 1.625;
+    font-weight: 500;
+    margin-top: -5px;
+}
+
+.comienzo{
+    font-size: 25px;
+    color: #27ECB1;
+}
+
+.linea{
+    color: #27ECB1;
+    border-color: #27ECB1; 
+    overflow: hidden;
+    border-style: inset;
+    border-width: 0.5px;
+    margin-top: -5px;
+
+}
