@@ -33,7 +33,7 @@ const Dos_Dormitorios = () => {
 
             <Box sx={{ flexGrow: 9, display: { xs: 'none', md: 'flex' } }}>
 
-                <ImageList xs={{ width: 400, height: 300 }} variant="woven" cols={3} gap={12}>
+                <ImageList xs={{ width: 400, height: 300 }} variant="woven" cols={3} gap={8}>
 
                     {dos_dorm.map((item) => (
                         <ImageListItem key={item.img}>
