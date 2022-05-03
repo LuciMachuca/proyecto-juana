@@ -7,6 +7,9 @@ import Box from '@mui/material/Box';
 import DosDormitorios from './dosDormController.jsx';
 import UnDormitorio from './unDormController.jsx';
 import Parque from './parqueController.jsx';
+import AppBar from '@mui/material/AppBar';
+import SwipeableViews from 'react-swipeable-views';
+import { useTheme } from '@mui/material/styles';
 
 
 function TabPanel(props) {
@@ -16,8 +19,8 @@ function TabPanel(props) {
     <div
       role="tabpanel"
       hidden={value !== index}
-      id={`simple-tabpanel-${index}`}
-      aria-labelledby={`simple-tab-${index}`}
+      id={`full-width-tabpanel-${index}`}
+      aria-labelledby={`full-width-tab-${index}`}
       {...other}
     >
       {value === index && (
@@ -37,39 +40,47 @@ TabPanel.propTypes = {
 
 function a11yProps(index) {
   return {
-    id: `simple-tab-${index}`,
-    'aria-controls': `simple-tabpanel-${index}`,
+    id: `full-width-tab-${index}`,
+    'aria-controls': `full-width-tabpanel-${index}`,
   };
 }
 
 export default function GaleriaConfig() {
+
+  const theme = useTheme();
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
 
-  
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
+  const handleChangeIndex = (index) => {
+    setValue(index);
   };
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
-
 
   return (
     <Box sx={{ width: '100%' }}>
-      <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+
+      <AppBar position="static" sx={{ backgroundColor: '#C7A389' }}>
+        <Tabs value={value} onChange={handleChange} 
+          indicatorColor="secondary"
+          textColor="inherit"
+          variant="fullWidth"
+          aria-label="full width tabs example">
+
           <Tab label="Parque" {...a11yProps(0)} />
-          <Tab label="Cabaña de 1 Dormitorio" {...a11yProps(1)} />
-          <Tab label="Cabaña de 2 Dormitorios" {...a11yProps(2)} />
+          <Tab label="Cabaña 1 Dormitorio" {...a11yProps(1)} />
+          <Tab label="Cabaña 2 Dormitorios" {...a11yProps(2)} />
         </Tabs>
-      </Box>
+      
+      </AppBar>
+
+      <SwipeableViews
+        axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+        index={value}
+        onChangeIndex={handleChangeIndex}
+      >
+       
       <TabPanel value={value} index={0}>
         <Parque />
       </TabPanel>
@@ -79,6 +90,9 @@ export default function GaleriaConfig() {
       <TabPanel value={value} index={2}>
         <DosDormitorios />
       </TabPanel>
+
+      </SwipeableViews>
+
     </Box>
   );
 }

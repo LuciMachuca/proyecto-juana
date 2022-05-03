@@ -36,7 +36,7 @@ export default function InformacionConfig() {
                     dado  que nuestro complejo no cuenta con oficina administrativa.<br />
                     Detrás de la puerta de ingreso encontrarán una lámina con teléfonos útiles como bomberos,
                     servicio de emergencia, municipalidad y policía.<br />
-                    El día del egreso Susi los volverá a contactar para coordinar el egreso, hacer una breve revisión de la cabaña y despedirlos.<br />
+                    El día del checkout Susi los volverá a contactar para coordinar el egreso, hacer una breve revisión de la cabaña y despedirlos.<br />
                 </p>
 
             </div>
@@ -53,7 +53,7 @@ export default function InformacionConfig() {
                     <li>Es responsabilidad de los dueños levantar los desechos de sus animales tanto de la cabaña como del parque.</li>
                     <br />
                     No cobramos adicional por mascota, pero <strong>pedimos un depósito en efectivo</strong> a garantía de posibles daños y/o
-                    el inclumiento de los apartados antes mencionados.<br/> 
+                    el incumplimiento de los apartados antes mencionados.<br/> 
                     Al momento del check out,
                     si todas las instalaciones se encuentran tal como las encontraron, se les devuelve el 100% del depósito.
                 </p>

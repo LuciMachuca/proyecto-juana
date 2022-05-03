@@ -23,7 +23,7 @@ import './Cards.css';
 
 export function LosRemansos() {
   return (
-    <Card sx={{ maxWidth: 500, backgroundColor:"#F8F4F2" }}>
+    <Card sx={{ maxWidth: 500, backgroundColor: "#F8F4F2" }}>
       <CardMedia
         component="img"
         height="200"
@@ -41,7 +41,7 @@ export function LosRemansos() {
       </CardContent>
 
       <CardActions>
-        <Button target={'_blank'} 
+        <Button target={'_blank'}
           href="https://www.google.com/maps/dir/-31.798324,-64.9829048/San+Alberto,+C%C3%B3rdoba/@-31.7984988,-64.9834726,18.75z/data=!4m8!4m7!1m0!1m5!1m1!1s0x942d2edecdfde223:0x5cba13ed18c2a757!2m2!1d-64.9826915!2d-31.7982978"
           size="small" style={{ color: '#DBC9BD' }} >Cómo Llegar</Button>
       </CardActions>
@@ -52,7 +52,7 @@ export function LosRemansos() {
 
 export function NonoCentro() {
   return (
-    <Card sx={{ maxWidth: 500, backgroundColor:"#F8F4F2" }}>
+    <Card sx={{ maxWidth: 500, backgroundColor: "#F8F4F2" }}>
       <CardMedia
         component="img"
         height="200"
@@ -84,7 +84,7 @@ export function NonoCentro() {
 
 export function MuseoRocsen() {
   return (
-    <Card sx={{ maxWidth: 500, backgroundColor:"#F8F4F2"  }}>
+    <Card sx={{ maxWidth: 500, backgroundColor: "#F8F4F2" }}>
       <CardMedia
         component="img"
         height="200"
@@ -116,7 +116,7 @@ export function MuseoRocsen() {
 
 export function Laberinto() {
   return (
-    <Card sx={{ maxWidth: 500, backgroundColor:"#F8F4F2"  }}>
+    <Card sx={{ maxWidth: 500, backgroundColor: "#F8F4F2" }}>
       <CardMedia
         component="img"
         height="200"
@@ -149,7 +149,7 @@ export function Laberinto() {
 
 export function PasoDeLasTropas() {
   return (
-    <Card sx={{ maxWidth: 500, backgroundColor:"#F8F4F2"  }}>
+    <Card sx={{ maxWidth: 500, backgroundColor: "#F8F4F2" }}>
       <CardMedia
         component="img"
         height="200"
@@ -177,7 +177,7 @@ export function PasoDeLasTropas() {
 
 export function MinaClavero() {
   return (
-    <Card sx={{ maxWidth: 500, backgroundColor:"#F8F4F2"  }}>
+    <Card sx={{ maxWidth: 500, backgroundColor: "#F8F4F2" }}>
       <CardMedia
         component="img"
         height="200"
@@ -211,7 +211,7 @@ export function MinaClavero() {
 
 export function NidoDelAguila() {
   return (
-    <Card sx={{ maxWidth: 500, backgroundColor:"#F8F4F2"  }}>
+    <Card sx={{ maxWidth: 500, backgroundColor: "#F8F4F2" }}>
       <CardMedia
         component="img"
         height="200"
@@ -242,7 +242,7 @@ export function NidoDelAguila() {
 
 export function ValleEncantado() {
   return (
-    <Card sx={{ maxWidth: 500, backgroundColor:"#F8F4F2"  }}>
+    <Card sx={{ maxWidth: 500, backgroundColor: "#F8F4F2" }}>
       <CardMedia
         component="img"
         height="200"
@@ -275,7 +275,7 @@ export function ValleEncantado() {
 
 export function PuentesColgantes() {
   return (
-    <Card sx={{ maxWidth: 500, backgroundColor:"#F8F4F2"  }}>
+    <Card sx={{ maxWidth: 500, backgroundColor: "#F8F4F2" }}>
       <CardMedia
         component="img"
         height="200"
@@ -309,17 +309,17 @@ export function Intro() {
 
       <div className='enunciado' >
         <p className='enun'>
-          <strong className='comienzo1'>Cabañas Doña Juana  </strong> es un <strong>sueño familiar</strong>, un proyecto en plena expansión que inició en el año 2017 <br/>
+          <strong className='comienzo1'>Cabañas Doña Juana  </strong> es un <strong>sueño familiar</strong>, un proyecto en plena expansión que inició en el año 2017 <br />
           con la inauguración de nuestras 2 primeras unidades.<br />
-          Somos un complejo vacacional ubicado en una zona privilegiada de <strong>Nono Traslasierra</strong>, por sus espectaculares
-          vistas a las montañas, tranquilidad, flora y fauna silvestre.
+          Somos un complejo vacacional ubicado en <strong>Nono Traslasierra</strong>, una zona privilegiada
+          por sus espectaculares vistas a las montañas,<br />  tranquilidad, flora y fauna silvestre.
         </p>
-       
+
       </div>
 
-    
+
       <div>
-      <br />
+        <br />
         <h3 className='lugares'>Lugares de Interés para toda la Familia</h3>
         <hr className='linea1' />
       </div>

@@ -6,6 +6,9 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Cab1Dorm from './cab1Dorm.jsx';
 import Cab2Dorm from './cab2Dorm.jsx';
+import SwipeableViews from 'react-swipeable-views';
+import { useTheme } from '@mui/material/styles';
+import AppBar from '@mui/material/AppBar';
 import './equipamiento.css';
 
 
@@ -16,8 +19,8 @@ function TabPanel(props) {
     <div
       role="tabpanel"
       hidden={value !== index}
-      id={`simple-tabpanel-${index}`}
-      aria-labelledby={`simple-tab-${index}`}
+      id={`full-width-tabpanel-${index}`}
+      aria-labelledby={`full-width-tab-${index}`}
       {...other}
     >
       {value === index && (
@@ -37,40 +40,54 @@ TabPanel.propTypes = {
 
 function a11yProps(index) {
   return {
-    id: `simple-tab-${index}`,
-    'aria-controls': `simple-tabpanel-${index}`,
+    id: `full-width-tab-${index}`,
+    'aria-controls': `full-width-tabpanel-${index}`,
   };
 }
 
 export default function EquipamientoConfig() {
+
+  const theme = useTheme();
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
 
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
+  const handleChangeIndex = (index) => {
+    setValue(index);
   };
 
   return (
     <Box sx={{ width: '100%' }}>
-      <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+
+      <AppBar position="static" sx={{ backgroundColor: '#C7A389' }}>
+
+        <Tabs value={value} onChange={handleChange}
+          indicatorColor="secondary"
+          textColor="inherit"
+          variant="fullWidth"
+          aria-label="full width tabs example" >
           <Tab label="1 Dormitorio" {...a11yProps(0)} />
           <Tab label="2 Dormitorios" {...a11yProps(1)} />
         </Tabs>
-      </Box>
+      </AppBar>
 
-      <TabPanel value={value} index={0}>
-        <Cab1Dorm />
-      </TabPanel>
+      <SwipeableViews
+        axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+        index={value}
+        onChangeIndex={handleChangeIndex}
+      >
 
-      <TabPanel value={value} index={1}>
-        <Cab2Dorm />
-      </TabPanel>
+        <TabPanel value={value} index={0}>
+          <Cab1Dorm />
+        </TabPanel>
+
+        <TabPanel value={value} index={1}>
+          <Cab2Dorm />
+        </TabPanel>
+
+      </SwipeableViews>
 
     </Box>
   );
