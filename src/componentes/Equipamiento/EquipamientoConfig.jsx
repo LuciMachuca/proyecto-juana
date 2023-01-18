@@ -61,10 +61,10 @@ export default function EquipamientoConfig() {
   return (
     <Box sx={{ width: '100%' }}>
 
-      <AppBar position="static" sx={{ backgroundColor: '#C7A389' }}>
+      <AppBar position="static" sx={{ backgroundColor: '#D8A790' }}>
 
         <Tabs value={value} onChange={handleChange}
-          indicatorColor="secondary"
+          indicatorColor="neutral"
           textColor="inherit"
           variant="fullWidth"
           aria-label="full width tabs example" >

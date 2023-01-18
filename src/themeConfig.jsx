@@ -2,13 +2,13 @@ import { createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
     palette: {
-        primary: { main: '#534340' },
-        secondary: { main: '#95E1D3' },
-        neutral: { main: '#C8F2EF' },
+        primary: { main: '#A92931' },
+        secondary: { main: '#F6F6F4' },
+        neutral: { main: '#D8A790' },
         
     },
     typography: {
-        fontFamily: 'Spartan',
+        fontFamily: '29LTAdir-ExtraBold.otf',
         fontSize: 12,
     },
 });

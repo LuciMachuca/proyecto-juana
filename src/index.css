@@ -1,11 +1,44 @@
+@font-face {
+  font-family: "BlackMango-Bold";
+  src: url("../src/Tipografia/BlackMango-Bold.ttf");
+}
+
+@font-face {
+  font-family: "BlackMango-Light";
+  src: url("../src/Tipografia/BlackMango-Light.otf");
+}
+
+@font-face {
+  font-family: "BlackMango-Medium";
+  src: url("../src/Tipografia/BlackMango-Medium.otf");
+}
+
+@font-face {
+  font-family: "BlackMango-Regular";
+  src: url("../src/Tipografia/BlackMango-Regular.otf");
+}
+
+@font-face {
+  font-family: "29LTAdir-Bold";
+  src: url("../src/Tipografia/29LTAdir-Bold.otf");
+}
+
+@font-face {
+  font-family: "29LTAdir-ExtraBold.otf";
+  src: url("../src/Tipografia/29LTAdir-ExtraBold.otf");
+}
+
+@font-face {
+  font-family: "29LTAdir-Regular.otf";
+  src: url("../src/Tipografia/29LTAdir-Regular.otf");
+}
+
 body {
 
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:"BlackMango-Bold";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #F8F4F2;
+  background-color: #F6F6F4;
 
 }

@@ -7,8 +7,9 @@ export default function Cab2Dorm() {
         <div>
 
             <div className='intro'>
-                
-                <h6>WIFI LIBRE Y GRATUITO</h6>
+            <br />
+                <h6><strong>WIFI LIBRE Y GRATUITO</strong></h6>
+                <h6><strong>SERVICIO DE EMERGENCIA 24 HS.</strong></h6>
                 <h6>Todas las ventanas de la cabaña tienen doble vidrio,<br />
                     tela mosquitera y cortinas black out.</h6>
             </div>
@@ -17,13 +18,13 @@ export default function Cab2Dorm() {
             <div>
                 <h3>EXTERIOR</h3>
                 <p className='parrafos'>Cochera, quincho y asador privados.<br />
-                    Mesa tablón de madera con 2 caballetes y 5 sillas plásticas. Parrilla y utensillos parrilleros. Cenicero.<br />
+                    Mesa tablón de madera con 2 caballetes y 6 sillas plásticas. Parrilla y utensillos parrilleros. Cenicero.<br />
                     Tendedero de metal con broches.<br /></p>
             </div>
 
             <div>
                 <h3>DORMITORIOS</h3>
-                <p className='parrafos'><span>PRINCIPAL:</span>Somier doble, placard con perchas, mesas de luz con veladores.<br />
+                <p className='parrafos'><span>PRINCIPAL:</span>Sommier king, placard con perchas, mesas de luz con veladores.<br />
                     Ventilador de techo, aire acondicionado frío calor y calefactor de tiro balanceado.<br />
                     <span>SECUNDARIO: </span>2 somiers de 1 plaza, placard con perchas, mesas de luz con veladores.<br />
                     Ventilador de techo, calefactor de tiro balanceado.<br />
@@ -36,6 +37,7 @@ export default function Cab2Dorm() {
                 <h3>SANITARIO </h3>
                 <p className='parrafos'>
                     Alfombra antideslizante.<br />
+                    Secador de Pelo.<br />
                     OTROS: 1 toalla de mano, 1 rollo de papel higiénico y 1 jabón de tocador.<br />
                 </p>
             </div>
@@ -46,7 +48,7 @@ export default function Cab2Dorm() {
                     Smart TV led 32” con Directv.<br />
                     Mesa de madera con 6 sillas. Aire acondicionado frío calor.<br />
                     Cama marinera con 2 colchones de espuma alta densidad.<br />
-                    Botiquín de primeros auxilios. Luz de emergencia.<br />
+                    Botiquín de primeros auxilios. Matafuegos. Luz de emergencia.<br />
                     Juegos de mesa : Jenga, cartas españolas, cartas de poker.<br />
                     <br />
                     <strong>VAJILLA POR 6 UNIDADES: </strong><br />
@@ -69,7 +71,8 @@ export default function Cab2Dorm() {
                 <h3>LIMPIEZA</h3>
                 <p className='parrafos'>Escoba, pala plástica, balde, mopa, limpiador de inodoros, secador y trapo de piso.<br />
                     Cestos de basura con bolsa en cocina y baño.<br />
-                    Detergente, esponja y valerina.<br /></p>
+                    Detergente, esponja y valerina.<br />
+                    <br /></p>
             </div>
 
         </div>
