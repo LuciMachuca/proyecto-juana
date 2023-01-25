@@ -14,7 +14,7 @@ export default function Cab1Dorm() {
 
             <div className='exterior'>
                 <h3>EXTERIOR</h3>
-                <p className='parrafos'>Cochera exterior semi cubierta con luz solar. Quincho y asador privados.<br />
+                <p className='parrafos'>Cochera exterior semi cubierta. Galería y asador privados.<br />
                     Mesa y 4 sillas plásticas. Parrilla y utensillos parrilleros. Tendedero.<br />
                 </p>
             </div>
@@ -42,7 +42,7 @@ export default function Cab1Dorm() {
                     Cama marinera con 2 colchones de espuma alta densidad.<br />
                     Botiquín de primeros auxilios. Matafuegos. Luz de emergencia.<br />
                     Juegos de mesa : Jenga, cartas españolas, cartas de poker.<br />
-                    <br />
+                    
                     <strong>Vajilla completa </strong><br />
                     <strong>Utensillos de cocina </strong><br />
                 </p>

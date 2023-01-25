@@ -14,16 +14,16 @@ export default function Cab2Dorm() {
 
             <div>
                 <h3>EXTERIOR</h3>
-                <p className='parrafos'>Cochera, quincho y asador privados.<br />
+                <p className='parrafos'>Cochera, Galería y asador privados.<br />
                     Mesa tablón de madera con 6 sillas plásticas. Parrilla y utensillos parrilleros. Tendedero.<br />
                 </p>
             </div>
 
             <div>
                 <h3>DORMITORIOS</h3>
-                <p className='parrafos'><span>PRINCIPAL:</span>Sommier king, placard grande.<br />
+                <p className='parrafos'><em><span>PRINCIPAL: </span></em>Sommier king, placard grande.<br />
                     Ventilador de techo, aire acondicionado frío calor y calefactor de tiro balanceado.<br />
-                    <span>SECUNDARIO: </span>2 somiers de 1 plaza, placard grande.<br />
+                    <em><span>SECUNDARIO: </span></em>2 somiers de 1 plaza, placard grande.<br />
                     Ventilador de techo, calefactor de tiro balanceado.<br />
                     <strong>Se incluyen ropa de cama y toallas </strong><br />
                 </p>

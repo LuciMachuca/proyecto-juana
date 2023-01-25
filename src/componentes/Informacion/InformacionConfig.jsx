@@ -39,7 +39,7 @@ export default function InformacionConfig() {
                 <p><ul>
                     <li>WiFi</li>
                     <li>Tv satelital</li>
-                    <li>Emergencia 24 hs.</li>
+                    <li>Traslado de Emergencias 24 hs.</li>
                 </ul>
                 </p>
 
