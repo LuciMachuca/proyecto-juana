@@ -7,7 +7,8 @@ export default function InformacionConfig() {
         <div className='container'>
 
             <div className='inicio'>
-
+            <br />
+            <br />
                 <p><strong className='comienzo'>Cabañas Doña Juana </strong>es un <em>establecimiento registrado </em>
                     que cumple con todos los requerimientos y medidas de seguridad establecidos por el Municipio.<br />
                     <br />
