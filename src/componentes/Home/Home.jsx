@@ -43,7 +43,7 @@ export default function Home() {
 
                     <div>
                         <br />
-                        <h3 className='lugares'>Equipamiento</h3>
+                        <h3 className='lugares'>Comodidades</h3>
                         <hr className='linea1 mt-1' />
                         <br />
                         <EquipamientoConfig />

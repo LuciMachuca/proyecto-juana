@@ -1,6 +1,6 @@
 import React from 'react';
 import { imagenes, comentarios } from './dataSlider';
-import img1 from '../../Imagenes/Parque/3.20.gif';
+import img1 from '../../Imagenes/Parque/3.20.jpg';
 import comen1 from '../../Comentarios/comeB1.png';
 
 

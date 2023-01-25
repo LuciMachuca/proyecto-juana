@@ -92,7 +92,7 @@ const Navbar = () => {
               </Button>
 
               <Button variant="text" style={{ color: '#A92931' }} component={Link} to='/equipamiento'>
-                Equipamiento
+               Comodidades
               </Button>
 
               <Button style={{ color: '#A92931' }} component={Link} to='/contacto'>
@@ -122,7 +122,7 @@ const Navbar = () => {
 
             <Button variant="text" style={{ color: '#FFFFFF' }} component={Link} to='/equipamiento'
               sx={{ my: 2, color: '#534340', display: 'block' }}>
-              Equipamiento
+              Comodidades
             </Button>
 
             <Button style={{ color: '#FFFFFF' }} component={Link} to='/contacto'

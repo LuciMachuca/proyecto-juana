@@ -7,69 +7,48 @@ export default function InformacionConfig() {
         <div className='container'>
 
             <div className='inicio'>
-            
-                <p><strong className='comienzo'>Doña Juana </strong>es un complejo que cuenta con 4 cabañas, una cochera exterior,
-                    pileta cercada y un parque grande con vista a las montañas.<br/>
-                    Se encuentra en un espacio privado llamado  “Campo Miralejos”, de fácil acceso
-                    y baja afluencia de vehículos, lo que facilita una estancia tranquila y segura.
-                    <br />Las cabañas cuentan con <strong>wifi </strong>y están <strong>completamente equipadas </strong>con aire acondicionado,
-                    ventiladores de  techo, calefactores, tv Smart 29’ con DIRECTV, heladera con freezer,
-                    cocina con horno, microondas, pava eléctrica,  camas sommier, guardarropas, quincho
-                    y asador privados.<br />
+
+                <p><strong className='comienzo'>Cabañas Doña Juana </strong>es un <em>establecimiento registrado </em>
+                    que cumple con todos los requerimientos y medidas de seguridad establecidos por el Municipio.<br />
                     <br />
-                    <strong>Cabañas de 1 dormitorio: </strong>Capacidad máxima 4 personas.<br />
-                    <strong>Cabañas de 2 dormitorios: </strong>Capacidad máxima 6 personas (( con cochera privada, baño y ante baño )).<br />
+                    A solo 5 minutos del Centro de Nono, Doña Juana se encuentra en un entorno privilegiado,
+                    un paisaje inigualable rodeado de vegetación y fauna silvestre. <br />
                     <br />
-                    Las unidades se encuentran separadas por aproximadamente 20 metros,
-                    lo que brinda privacidad e intimidad.<br />
-                    <strong>Incluimos ropa de cama: </strong>sábanas, almohadas, mantas de plush, acolchados; vajilla completa, utensillos de cocina y limpieza.<br />
+                    El complejo cuenta con 4 cabañas totalmente equipadas y distanciadas entre sí,
+                    con comodidades y detalles de calidad, que facilitan el confort y la seguridad de una estancia placentera y tranquila.<br />
+                    <br />
+                    Ubicado en un espacio privado  llamado “Campo Miralejos”, de fácil acceso y baja afluencia de vehículos,
+                    éste entorno dispone de piscina cercada y un extenso parque con vista a las montañas,
+                    para disfrutar de la naturaleza y la tranquilidad de unas vacaciones excepcionales.<br />
+
                     <br />
                 </p>
             </div>
 
             <div className='ingreso-egreso mt-4'>
-                <h3>CHECK IN Y CHECK OUT</h3>
-                <p><strong>Horario de check in: </strong>A partir de las 14 hs.<br />
-                    <strong>Horario de check out: </strong>Hasta las 10 am.<br />
-                    <br />
-                    El día del ingreso, <strong>nuestra colaboradora Susi </strong>se comunica con ustedes para darles la bienvenida en el lugar,
-                    dado  que nuestro complejo no cuenta con oficina administrativa.<br />
-                    Detrás de la puerta de ingreso encontrarán una lámina con teléfonos útiles como bomberos,
-                    servicio de emergencia, municipalidad y policía.<br />
-                    El día del checkout Susi los volverá a contactar para coordinar el egreso, hacer una breve revisión de la cabaña y despedirlos.<br />
-                    <br />
+                <h3>PET FRIENDLY</h3>
+                <p><strong>Tu mascota es bienvenida! </strong>En Doña Juana nos alegramos de ser un Complejo amigable con los animales.<br />
+                    
                 </p>
 
             </div>
 
             <div className='mascotas mt-4'>
-                <h3>TU MASCOTA ES BIENVENIDA!</h3>
-                <p>Nos alegramos de ser un Complejo amigable con los animales!
-                    Para garantizar una estadía placentera y tranquila, Cabañas Doña Juana tiene algunas consideraciones
-                    para la admisión y permanencia de animales. A saber:<br />
-                    <br />
-                    <li>Permitimos 1 mascota por cabaña</li>
-                    <li>No se permite dejar a la mascota sola en la cabaña</li>
-                    <li>La mascota debe estar constantemente supervisada por sus dueños.</li>
-                    <li>Es responsabilidad de los dueños levantar los desechos de sus animales tanto de la cabaña como del parque.</li>
-                    <br />
-                    No cobramos adicional por mascota, pero <strong>pedimos un depósito en efectivo</strong> a garantía de posibles daños y/o
-                    el incumplimiento de los apartados antes mencionados.<br/> 
-                    Al momento del check out,
-                    si todas las instalaciones se encuentran tal como las encontraron, se les devuelve el 100% del depósito.
-                    <br />
+                <h3>SERVICIOS</h3>
+                <p><ul>
+                    <li>WiFi</li>
+                    <li>Tv satelital</li>
+                    <li>Emergencia 24 hs.</li>
+                </ul>
                 </p>
 
             </div>
 
             <div className='servicios mt-4'>
-                <h3>SERVICIOS DE LIMPIEZA Y LAVANDERÍA</h3>
-                <p><strong>Éstos no se incluyen en la tarifa </strong>pero son opcionales con costo adicional y
-                    están a cargo de nuestra colaboradora de confianza.<br />
-                    En el caso de estar interesados en alguno de estos servicios deben comunicárselo a Susi
-                    y ella les va a brindar información y precios.
+                <h3>OPCIONALES</h3>
+                <p>Servicios de Limpieza y Lavandería. <br />
                     <br />
-                    <br /></p>
+                </p>
 
             </div>
 
